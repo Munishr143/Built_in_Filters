@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Built_in_filters</h1>
+        <h2>{{data}}</h2><br><br>
+        <h2>{{data|lower}} -LOWER</h2><br><br>
+        <h2>{{data|upper}} -UPPER</h2><br><br>
+        <h2>{{data|capfirst}} -CAPFIRST</h2><br><br>
+        <h2>{{data|title}} -TITLE</h2><br><br>
+        <h2>{{data|length}} -LENGTH</h2><br><br>
+        <h2>{{data|truncatewords:'8'}} -TRUNCATE WORDS</h2><br><br>
+        <h2>{{data|truncatechars:'29'}} -TRUNCATE CHARS</h2><br><br>
+        <h2>{{data|slice:'29'}} -SLICE</h2><br><br>
+        <h2>{{date}}</h2><br><br>
+        <h2>I have {{Count}} Pen{{Count|pluralize}}</h2>
+        <h2>I have {{Count}} Mango{{Count|pluralize:'es'}}</h2>
+        <h2>This {{Count}} marker{{Count|pluralize}} {{Count|pluralize:'is,are'}} Mine</h2>
+
+    </center>
+    
+</body>
+</html>
